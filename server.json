@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.rowhousesoftware/kind-reply",
+  "title": "Kind Reply",
+  "description": "Check a reply to a Google review before you post it.",
+  "websiteUrl": "https://replies.rowhousesoftware.com",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/rowhousesoftware/kind-reply",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://replies.rowhousesoftware.com/mcp"
+    }
+  ]
+}
